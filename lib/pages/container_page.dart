@@ -64,10 +64,10 @@ class _ContainerPageState extends State<ContainerPage> {
             width: 30.0,
             height: 30.0,
           ),
-          title: Text(
-            item.name,
-            style: TextStyle(fontSize: 10.0),
-          ),
+          // title: Text(
+          //   item.name,
+          //   style: TextStyle(fontSize: 10.0),
+          // ),
           activeIcon:
           Image.asset(item.activeIcon, width: 30.0, height: 30.0)))
           .toList();
